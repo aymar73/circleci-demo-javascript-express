@@ -43,5 +43,5 @@ jobs:
       - checkout
       - restore_cache:
           key: "npm-packages"
-      - run: npm audit
+      - run: npm audit fix
 
